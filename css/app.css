@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.img-container {
+    height: 70vh;
+    background: url(../img/cont-0.JPG) center no-repeat;
+    border: 0.2rem solid #11bd11;
+    border-radius: 0.5rem;
+    background-size: contain;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .btn-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+    color: #0ddd0d !important;
+    transform: translate(-50%, -50%);
+    border: 2px solid #0ddd0d;
+    font-size: 4rem;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 2s ease;
+    cursor: pointer;
+  }
+
+    .btn-left:hover {
+        color:red !important;
+    }
+
+  .btn-right {
+    position: absolute;
+    top: 50%;
+    right: -67px;
+    background: black;
+    color: #0ddd0d !important;
+    transform: translate(-50%, -50%);
+    border: 2px solid #0ddd0d;
+    font-size: 4rem;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 2s ease;
+  }
+
+  .btn-right:hover {
+    color:red !important;
+}
+
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .parent {
+        width: 85% !important;
+        margin: auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .img-container {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .btn-left {
+        font-size: 3rem;
+        padding: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .btn-right {
+        font-size: 3rem;
+        padding: 8px;
+        right: -44px;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .parent {
+        width: 80% !important;
+        margin: auto;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .img-container {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .btn-left {
+       font-size: 3rem;
+       padding: 10px;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .btn-right {
+       font-size: 3rem;
+       padding: 10px;
+       right: -49px;
+    }
+}
